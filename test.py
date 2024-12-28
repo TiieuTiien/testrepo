@@ -58,7 +58,7 @@ def file_operations():
         content = file.read()
     print(f"Content of '{filename}':\n{content}")
 
-# Main function to call all other functions in sequence
+# Main function to call all other functions
 def main():
     greet_user()  # Call the greeting function
     arithmetic_operations()  # Call the arithmetic operations function
